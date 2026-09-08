@@ -1,0 +1,1233 @@
+# Noncommercial Source-Preservation License 1.2
+
+Copyright © 2026 lyjjl
+
+**Required Attribution:** AutoDrillNEXT by lyjjl
+
+**Original Repository:** https://github.com/lyjjl/AutoDrillNEXT
+
+---
+
+## 1. Acceptance
+
+By exercising any permission granted under these terms, you accept these terms as conditions of the licenses granted to you.
+
+You are not required to accept these terms merely to exercise rights that applicable law gives you independently of this license.
+
+---
+
+## 2. License Scope
+
+The copyright license granted under these terms is:
+
+* non-exclusive;
+* royalty-free;
+* worldwide; and
+* effective for the duration of the applicable copyright in the Software,
+
+unless your permissions terminate under these terms.
+
+No license fee or royalty is owed to the Licensor for any Permitted Purpose.
+
+Each recipient of the Software receives the permissions granted by this license directly from the Licensor.
+
+A distributor does not need to obtain or grant a separate sublicense merely to redistribute the Software or a permitted Modified Version in accordance with these terms.
+
+---
+
+## 3. Copyright License
+
+Subject to these terms, the Licensor grants you permission to:
+
+* use the Software;
+* run the Software;
+* reproduce the Software;
+* inspect and study the Software;
+* modify the Software;
+* adapt the Software;
+* translate the Software;
+* create Modified Versions;
+* create Independent Components that interact with the Software;
+* combine the Software with other software;
+* redistribute the Software;
+* redistribute Modified Versions; and
+* otherwise exercise copyright rights in the Software as necessary for a Permitted Purpose.
+
+These permissions are subject only to the conditions stated in this license and mandatory applicable law.
+
+---
+
+## 4. Patent License
+
+To the extent the Licensor has the authority to do so, the Licensor grants you a non-exclusive, royalty-free patent license covering patent claims that:
+
+1. the Licensor can license; and
+2. would necessarily be infringed solely by exercising permissions expressly granted under these terms.
+
+No patent rights are granted beyond those necessary to exercise the permissions granted by this license.
+
+Where applicable law requires registration, recordation, government approval, or another mandatory formality for a patent license to take legal effect, this section does not dispense with that requirement.
+
+---
+
+## 5. Permitted Purposes
+
+Any purpose is permitted unless it constitutes Commercial Exploitation as defined by these terms.
+
+The fact that a person or organization operates for profit does not by itself make a use Commercial Exploitation.
+
+In particular, commercial organizations may engage in the internal, research, educational, testing, security, and other activities expressly permitted below.
+
+---
+
+## 6. Personal Use
+
+Personal use is permitted without charge.
+
+Permitted personal activities include:
+
+* study;
+* research;
+* experimentation;
+* testing;
+* benchmarking;
+* security research;
+* interoperability research;
+* preservation;
+* archival work;
+* reverse engineering where lawful;
+* education;
+* hobby projects;
+* private entertainment;
+* amateur development;
+* modification;
+* backup; and
+* private operation.
+
+Private modifications do not have to be published.
+
+---
+
+## 7. Nonprofit and Public Organizations
+
+Use by the following organizations is permitted:
+
+* nonprofit organizations;
+* charities;
+* foundations;
+* community organizations;
+* educational institutions;
+* universities;
+* schools;
+* libraries;
+* museums;
+* public research institutions;
+* public-interest organizations;
+* public safety organizations;
+* public health organizations;
+* environmental organizations;
+* government departments;
+* government agencies;
+* local authorities; and
+* other public bodies.
+
+Such organizations may receive:
+
+* donations;
+* grants;
+* government funding;
+* institutional funding;
+* sponsorship;
+* membership fees;
+* tuition;
+* research funding;
+* reimbursements; and
+* similar financial support.
+
+Receiving such funding does not by itself constitute Commercial Exploitation.
+
+Nonprofit or public status does not, however, authorize conduct that otherwise constitutes prohibited Commercial Exploitation of the Software.
+
+---
+
+## 8. Education and Research
+
+Teaching, education, scientific research, academic research, independent research, university research, experimentation, publication, testing, benchmarking, security analysis, interoperability work, and lawful reverse engineering are permitted.
+
+These permissions apply whether the activity is performed:
+
+* personally;
+* by an educational institution;
+* by a university;
+* by a nonprofit organization;
+* by a government organization;
+* by an independent researcher; or
+* by employees or contractors of a commercial organization.
+
+Research results may be:
+
+* published;
+* presented;
+* demonstrated;
+* discussed;
+* taught;
+* archived; or
+* otherwise shared.
+
+A commercial organization may use the Software internally for research, testing, evaluation, prototyping, training, benchmarking, compatibility testing, security analysis, or experimentation.
+
+If a resulting product or service later commercially supplies the Software, a Modified Version, or functionality substantially provided by the Software to third parties, that commercial offering may require separate permission under the Commercial Exploitation provisions.
+
+---
+
+## 9. Internal Organizational Use
+
+A commercial or for-profit organization may use and modify the Software for its own internal operations.
+
+Permitted internal uses include:
+
+* development tools;
+* build systems;
+* continuous integration;
+* continuous deployment;
+* automation;
+* monitoring;
+* administration;
+* internal infrastructure;
+* internal APIs;
+* internal services;
+* testing;
+* debugging;
+* quality assurance;
+* research;
+* security analysis;
+* employee training;
+* internal data processing;
+* employee productivity;
+* infrastructure management; and
+* similar internal operations.
+
+Internal use remains permitted even when that use indirectly contributes to the organization's revenue or commercial activity.
+
+For example, use of the Software to internally build, test, monitor, secure, administer, or maintain an unrelated commercial product does not by itself constitute Commercial Exploitation of the Software.
+
+This exception does not permit the organization to commercially provide the Software itself, a Modified Version, or functionality substantially supplied by the Software to external customers.
+
+Internal modifications do not have to be published merely because they are used within an organization.
+
+---
+
+## 10. Donations, Grants, Tips, and Sponsorship
+
+Voluntary financial support is permitted.
+
+This includes:
+
+* donations;
+* tips;
+* grants;
+* crowdfunding;
+* recurring sponsorships;
+* GitHub Sponsors;
+* Patreon-style sponsorship;
+* Ko-fi-style contributions;
+* institutional sponsorship;
+* project sponsorship;
+* community sponsorship; and
+* substantially similar voluntary financial support.
+
+Sponsors or donors may receive ordinary recognition such as:
+
+* credits;
+* acknowledgements;
+* badges;
+* supporter listings;
+* public thanks;
+* community roles;
+* development updates; and
+* similar recognition.
+
+Voluntary financial support does not constitute Commercial Exploitation when payment is not required to obtain the Software or exercise rights granted under this license.
+
+A mandatory payment may not be disguised as a donation.
+
+For example:
+
+> "Donate before the download link becomes visible"
+
+is considered payment for access rather than a voluntary donation, except where the payment qualifies solely as permitted Cost Recovery.
+
+---
+
+## 11. Cost Recovery
+
+You may request or collect payment solely to recover reasonable and good-faith direct costs incurred in distributing or operating access to the Software.
+
+Permitted direct costs may include:
+
+* server costs;
+* bandwidth;
+* storage;
+* domain registration;
+* build infrastructure;
+* code-signing costs;
+* payment-processing costs;
+* physical media;
+* packaging;
+* shipping; and
+* substantially similar direct distribution expenses.
+
+Cost Recovery must:
+
+1. be reasonably related to actual costs;
+2. not contain a material profit margin; and
+3. not be structured primarily as a method of monetizing access to the Software.
+
+General business profit, development profit, licensing profit, scarcity premiums, or arbitrary access fees do not qualify as Cost Recovery.
+
+Voluntary donations may be requested separately from Cost Recovery.
+
+---
+
+## 12. Media, Videos, Streaming, and Publications
+
+You may create, publish, distribute, and monetize media concerning the Software.
+
+This includes:
+
+* videos;
+* livestreams;
+* articles;
+* tutorials;
+* reviews;
+* demonstrations;
+* documentation;
+* books;
+* research papers;
+* academic publications;
+* courses;
+* lectures;
+* presentations;
+* commentary;
+* podcasts;
+* social-media content; and
+* substantially similar media.
+
+Revenue associated primarily with the media itself is permitted.
+
+Permitted revenue may include:
+
+* advertising revenue;
+* platform creator revenue;
+* YouTube monetization;
+* livestream monetization;
+* sponsorship;
+* affiliate revenue;
+* publication revenue;
+* channel memberships;
+* voluntary donations; and
+* similar compensation.
+
+A monetized video, article, livestream, tutorial, course, or publication may provide a direct link to the Original Repository or another lawful source of the Software.
+
+This permission does not permit using media as a disguised paywall for obtaining the Software.
+
+---
+
+## 13. Passive Advertising
+
+Passive advertising around the Software or its download location is permitted.
+
+Advertisements may, for example, appear:
+
+* beside a download button;
+* above or below a download button;
+* in a webpage sidebar;
+* elsewhere on a download page;
+* on a repository mirror;
+* on a website that hosts the Software;
+* in documentation; or
+* on a page that also contains Access Information.
+
+Advertising must not be a required action for obtaining the Software.
+
+A person must remain able to access the legitimate download or Access Information without being required to consume or interact with advertising.
+
+---
+
+## 14. Advertising Barriers
+
+You may not condition access to the Software, Corresponding Source, or Access Information on advertising interaction.
+
+You may not require a person to:
+
+* watch an advertisement;
+* wait for an advertisement to finish;
+* click an advertisement;
+* complete an advertising offer;
+* install advertised software;
+* complete a survey;
+* interact with an affiliate offer;
+* follow a sponsored redirect;
+* traverse a monetized redirect chain;
+* install a browser extension;
+* install an unrelated application; or
+* perform a substantially similar advertising action
+
+before obtaining the Software, Corresponding Source, or Access Information.
+
+Passive advertisements that do not gate access remain permitted.
+
+---
+
+## 15. Commercial Exploitation
+
+Except for activities expressly permitted elsewhere in these terms, you may not commercially exploit the Software.
+
+Commercial Exploitation includes seeking or receiving direct commercial compensation substantially in exchange for:
+
+1. a copy of the Software;
+2. a Modified Version;
+3. access to the Software;
+4. access to a Modified Version;
+5. functionality substantially provided by the Software;
+6. a download or distribution channel for the Software;
+7. Access Information concerning the Software; or
+8. information whose principal commercial value is enabling another person to locate, unlock, retrieve, download, or obtain the Software.
+
+Without separate permission from the Licensor, you may not:
+
+* sell the Software for profit;
+* sell a Modified Version for profit;
+* charge a license fee for the Software;
+* rent or lease the Software;
+* require payment to download the Software;
+* place the Software behind a paywall;
+* require paid membership to obtain the Software;
+* require a subscription to obtain the Software;
+* require sponsorship to obtain the Software;
+* require purchase of another product to obtain the Software;
+* bundle the Software into a commercial product where obtaining the Software forms a material part of the transaction;
+* provide the Software itself as a paid hosted service;
+* provide a Modified Version itself as a paid hosted service;
+* commercially provide functionality substantially supplied by the Software as a customer-facing service;
+* sell a download location;
+* sell a repository location;
+* sell a mirror address;
+* sell a file-hosting location;
+* sell a download token;
+* sell a password required primarily to obtain the Software;
+* sell a decryption key required primarily to obtain the Software;
+* sell an invitation code required primarily to obtain the Software;
+* sell a torrent identifier;
+* sell a magnet URI;
+* sell a QR code whose principal purpose is locating the Software;
+* sell an API endpoint whose principal purpose is retrieving the Software;
+* sell a command whose principal purpose is retrieving the Software;
+* sell retrieval instructions whose principal commercial value is revealing where or how to obtain the Software; or
+* use another arrangement whose practical substance is charging for access to the Software while describing the payment as payment for information, convenience, membership, priority, access assistance, or another intermediary product.
+
+Commercial Exploitation does not include ordinary indirect economic benefits resulting from permitted Internal Organizational Use.
+
+---
+
+## 16. Access Information
+
+"Access Information" means information whose principal practical purpose is enabling a person to locate, identify, unlock, retrieve, download, or obtain the Software.
+
+Access Information may include:
+
+* URLs;
+* repository addresses;
+* mirror addresses;
+* file-hosting addresses;
+* package locations;
+* download identifiers;
+* download tokens;
+* passwords;
+* access codes;
+* invitation codes;
+* decryption credentials;
+* torrent identifiers;
+* magnet URIs;
+* QR codes;
+* file identifiers;
+* API endpoints;
+* retrieval commands; and
+* substantially similar information.
+
+Information does not become Access Information merely because it discusses, describes, reviews, teaches, analyzes, or refers to the Software.
+
+Tutorials, journalism, reviews, commentary, research, documentation, books, educational material, and substantive media remain covered by the Media permission.
+
+A monetized article, video, livestream, tutorial, or other substantive publication may include Access Information incidentally, provided payment is not specifically required to reveal or obtain that Access Information.
+
+For example:
+
+* a monetized YouTube video may freely include the Original Repository link in its description;
+* an advertisement-supported article may provide a direct download link;
+* a sponsored tutorial may provide a free repository link;
+* a paid book may mention the publicly available repository as part of substantive educational content.
+
+Those activities are permitted.
+
+---
+
+## 17. Nature of Commercial Restrictions
+
+The Commercial Exploitation restrictions operate as conditions on permissions granted under this license to the extent that the relevant activity requires permission from the Licensor under applicable intellectual-property law.
+
+For persons who accept these terms, those restrictions may also operate as contractual obligations to the extent permitted by applicable law.
+
+Nothing in these terms claims copyright, ownership, or another exclusive intellectual-property right in:
+
+* facts;
+* URLs;
+* addresses;
+* identifiers;
+* publicly known locations;
+* ordinary instructions; or
+* other material that applicable law does not protect merely because it constitutes Access Information.
+
+Nothing in this license creates an exclusive intellectual-property right where applicable law does not provide one.
+
+---
+
+## 18. Monetized Redirects and Download Intermediation
+
+You may not commercially monetize the act of directing a person to the Software where access is conditioned on passing through a monetized intermediary.
+
+Prohibited arrangements include requiring users to pass through:
+
+* paid URL shorteners;
+* advertising shorteners;
+* offer walls;
+* affiliate redirects;
+* sponsored redirects;
+* mandatory intermediate advertising pages;
+* paid download gateways;
+* monetized redirect chains; or
+* substantially similar intermediaries
+
+before receiving the actual download or Access Information.
+
+You may operate an advertising-supported website or mirror provided that the legitimate download remains directly accessible without mandatory advertising interaction.
+
+---
+
+## 19. No Artificial Scarcity
+
+You may not intentionally create artificial scarcity around otherwise available copies or Access Information primarily for commercial monetization.
+
+For example, you may not commercially charge for:
+
+* an intentionally hidden public download link;
+* an intentionally hidden repository address;
+* a password created primarily to monetize access;
+* a private mirror created primarily to sell access to an otherwise freely available release;
+* a paid membership role whose principal benefit is obtaining the Software; or
+* access intentionally withheld from the public primarily to create a paid access tier.
+
+This section does not prohibit:
+
+* genuine private development;
+* unreleased development builds;
+* private testing versions;
+* commissioned work that does not itself violate the Commercial Exploitation provisions;
+* security embargoes;
+* staged technical testing;
+* legitimate release scheduling; or
+* temporary restricted access for non-commercial operational reasons.
+
+---
+
+## 20. Changes and Modified Versions
+
+You may modify the Software for any Permitted Purpose.
+
+Private modifications do not have to be published.
+
+Internal organizational modifications do not have to be published.
+
+Using or operating a Modified Version over a network does not by itself require publication of source code.
+
+The Source Preservation requirements apply when Licensed Components or Covered Modifications are Distributed.
+
+---
+
+## 21. Licensed Components
+
+"Licensed Components" means the source code, code, scripts, assets, documentation, configuration, or other copyrightable material originally offered by the Licensor under this license.
+
+A file or component remains a Licensed Component when incorporated into a larger application, archive, package, executable, repository, container, or other combined work.
+
+---
+
+## 22. Covered Modifications
+
+"Covered Modifications" means material that directly modifies or derives from Licensed Components.
+
+Covered Modifications include:
+
+* edits to Licensed Components;
+* modified copies of Licensed Components;
+* translated Licensed Components;
+* adapted Licensed Components;
+* code copied from Licensed Components and subsequently modified;
+* material substantially derived from Licensed Components; and
+* replacement material created by directly adapting the expression or implementation of Licensed Components.
+
+A newly created component does not become a Covered Modification merely because it:
+
+* interoperates with the Software;
+* depends on the Software;
+* calls the Software;
+* imports the Software;
+* links to the Software;
+* loads the Software;
+* implements an interface used by the Software;
+* provides an interface used by the Software; or
+* is designed specifically to work with the Software.
+
+---
+
+## 23. Independent Components
+
+"Independent Component" means material that:
+
+1. was independently authored or lawfully obtained;
+2. does not contain a substantial portion of Licensed Components;
+3. is not itself a direct modification or adaptation of Licensed Components; and
+4. remains reasonably identifiable as independently authored material.
+
+Independent Components may be distributed under any terms chosen by their respective copyright holders.
+
+Such terms may include:
+
+* MIT;
+* BSD;
+* Apache;
+* GPL;
+* LGPL;
+* MPL;
+* another free-software license;
+* another open-source license;
+* another source-available license;
+* a custom license; or
+* proprietary and closed-source terms.
+
+Nothing in this license requires disclosure of the source code of Independent Components.
+
+---
+
+## 24. Source Preservation
+
+You may not convert Distributed Licensed Components or Covered Modifications into closed-source material.
+
+Whenever you Distribute Licensed Components or Covered Modifications in:
+
+* executable form;
+* binary form;
+* compiled form;
+* bytecode;
+* minified form;
+* obfuscated form;
+* packaged form;
+* generated form; or
+* another form that is not reasonably suitable for modification,
+
+you must also make the corresponding source code of those Licensed Components and Covered Modifications available as required by these terms.
+
+This requirement applies only to Licensed Components and Covered Modifications.
+
+It does not extend to Independent Components.
+
+---
+
+## 25. No Viral Licensing
+
+This license is intentionally non-viral.
+
+The licensing conditions applicable to Licensed Components and Covered Modifications do not automatically extend to independently authored code merely because the code is combined with or interacts with the Software.
+
+You are not required to license an entire:
+
+* project;
+* repository;
+* application;
+* executable;
+* package;
+* installer;
+* container;
+* service;
+* library;
+* operating environment; or
+* Larger Work
+
+under this license merely because Licensed Components are present.
+
+Only Licensed Components and Covered Modifications remain subject to this license's Source Preservation requirements.
+
+---
+
+## 26. Linking and Integration Exception
+
+An Independent Component does not become subject to this license merely because it:
+
+* statically links to the Software;
+* dynamically links to the Software;
+* imports the Software;
+* loads the Software as a library;
+* calls functions supplied by the Software;
+* exposes functions to the Software;
+* uses a plugin interface;
+* implements a plugin interface;
+* uses an extension interface;
+* calls an API;
+* exposes an API;
+* communicates through IPC;
+* communicates through sockets;
+* communicates through shared memory;
+* communicates through pipes;
+* communicates through HTTP;
+* communicates through another network protocol;
+* invokes the Software as a separate process;
+* exchanges files with the Software;
+* exchanges structured data with the Software;
+* shares a database with the Software;
+* is compiled into the same executable;
+* is packaged into the same application;
+* is distributed in the same archive;
+* is distributed by the same installer;
+* appears in the same repository;
+* runs in the same container;
+* runs on the same computer; or
+* otherwise interoperates with the Software.
+
+This exception applies even when the Independent Component is proprietary or closed source.
+
+---
+
+## 27. Larger Works
+
+You may combine Licensed Components with Independent Components to create a Larger Work.
+
+The Larger Work as a whole does not have to use this license.
+
+You may distribute a Larger Work under any overall licensing structure permitted by applicable law, provided that:
+
+1. Licensed Components remain subject to these terms;
+2. Covered Modifications remain subject to the Source Preservation requirements;
+3. recipients can reasonably identify which portions are Licensed Components or Covered Modifications;
+4. recipients can obtain Corresponding Source for those portions; and
+5. the overall licensing structure does not purport to remove rights granted by this license with respect to those portions.
+
+Independent Components in the Larger Work may remain proprietary or use unrelated licenses.
+
+Nothing in this section overrides the Commercial Exploitation restrictions.
+
+A Larger Work containing the Software may therefore contain closed-source Independent Components without becoming subject to this license as a whole, but commercial distribution of the Software as part of that Larger Work remains subject to the Commercial Exploitation provisions.
+
+---
+
+## 28. No Mandatory Relicensing
+
+You are not required to license Independent Components under this license.
+
+You are not required to assign copyright in any contribution or modification to the Licensor.
+
+You are not required to license an entire Modified Version, repository, application, executable, or Larger Work under these terms.
+
+Covered Modifications may also be offered under additional licenses, provided that every recipient entitled to receive the Covered Modification under this license continues to receive at least the rights granted by this license.
+
+Additional terms may not be used to make Licensed Components or Covered Modifications effectively closed source.
+
+---
+
+## 29. Corresponding Source
+
+"Corresponding Source" means the preferred form of a Licensed Component or Covered Modification for making modifications to that component or modification.
+
+Where applicable, Corresponding Source includes:
+
+* source code;
+* modified source code;
+* scripts used specifically to generate the distributed component;
+* build definitions specific to the component;
+* interface definitions required to understand or modify the component; and
+* configuration reasonably necessary to build or modify the component.
+
+Corresponding Source does not require disclosure of Independent Components.
+
+Corresponding Source does not require disclosure of unrelated:
+
+* applications;
+* libraries;
+* plugins;
+* proprietary modules;
+* services;
+* server infrastructure;
+* operating systems;
+* compilers;
+* interpreters;
+* standard libraries;
+* general development tools; or
+* independently supplied dependencies.
+
+You are not required to provide source code merely because it is necessary to rebuild an entire Larger Work when that code itself is an Independent Component.
+
+---
+
+## 30. Providing Corresponding Source
+
+You may satisfy the Corresponding Source requirement by:
+
+1. including the Corresponding Source with the distributed copy; or
+2. providing a clear, durable, and reasonably accessible location where recipients may obtain it.
+
+The Corresponding Source must correspond to the version of the Licensed Components or Covered Modifications actually distributed.
+
+Access to Corresponding Source may not require:
+
+* a purchase;
+* a license fee;
+* a donation;
+* paid membership;
+* sponsorship;
+* mandatory advertising interaction;
+* an offer wall;
+* a monetized redirect; or
+* surrender of rights granted under this license.
+
+Reasonable unavoidable physical-media or direct network-transfer costs may be charged under the Cost Recovery provision.
+
+---
+
+## 31. Distribution of Unmodified Copies
+
+You may redistribute unmodified copies of the Software for any Permitted Purpose.
+
+You must preserve:
+
+* applicable copyright notices;
+* this license;
+* Required Attribution; and
+* the Original Repository information.
+
+You may operate your own:
+
+* mirror;
+* archive;
+* package repository;
+* distribution server; or
+* other non-commercial distribution channel.
+
+You may provide your own download location in addition to the Original Repository.
+
+---
+
+## 32. Attribution
+
+You must preserve reasonable attribution to the original project.
+
+Every Distributed copy of the Software or a Modified Version must retain:
+
+* applicable copyright notices;
+* this license;
+* Required Attribution; and
+* the Original Repository address.
+
+The Original Repository reference must identify the original upstream repository designated by the Licensor.
+
+A fork, mirror, redistribution site, or derivative project may provide its own repository address in addition to the Original Repository.
+
+It may not substitute its own repository for the required Original Repository attribution.
+
+Where hyperlinks are supported, the Original Repository address must remain directly usable as a hyperlink where reasonably practical.
+
+---
+
+## 33. Placement of Attribution
+
+For source distributions, attribution may be placed in:
+
+* `LICENSE`;
+* `NOTICE`;
+* `README`;
+* package metadata; or
+* another reasonably prominent location.
+
+For binary distributions, attribution may be placed in:
+
+* bundled license files;
+* documentation;
+* legal notices;
+* an About screen;
+* package metadata; or
+* another location reasonably accessible to recipients.
+
+Attribution is not required to appear in:
+
+* every source file;
+* every application screen;
+* every dialog;
+* every website page; or
+* every piece of media concerning the Software.
+
+The attribution requirement should be satisfied in a practical manner appropriate to the distribution medium.
+
+---
+
+## 34. Modification Notices
+
+If you Distribute a Modified Version, you must provide reasonable notice that modifications were made.
+
+You must not knowingly represent a Modified Version as an official, original, or unmodified release from the original project.
+
+You may identify:
+
+* yourself;
+* your organization;
+* your fork;
+* your project; or
+* your contributors
+
+as the authors or maintainers of the modifications.
+
+You must not remove or falsify required Original Repository or original attribution information.
+
+---
+
+## 35. No Closed-Source Redistribution of Covered Material
+
+You may not Distribute Licensed Components or Covered Modifications while deliberately withholding their Corresponding Source from recipients.
+
+You may not use:
+
+* obfuscation;
+* encryption;
+* inaccessible source repositories;
+* contractual restrictions;
+* technical access controls; or
+* substantially similar measures
+
+for the purpose of defeating the Source Preservation requirement.
+
+This section does not prohibit legitimate:
+
+* authentication;
+* access control;
+* security hardening;
+* anti-tampering mechanisms;
+* digital signatures;
+* code signing;
+* encryption;
+* integrity verification; or
+* other security measures
+
+when those measures are not used to prevent recipients from obtaining Corresponding Source to which they are entitled.
+
+---
+
+## 36. Additional Terms and License Compatibility
+
+You may impose separate terms on Independent Components.
+
+Those terms may be more restrictive than this license, including proprietary terms.
+
+You may not impose additional terms on Distributed Licensed Components or Covered Modifications that prevent recipients from exercising rights expressly granted for those components under this license.
+
+This license is not intended to alter the licensing requirements of Independent Components.
+
+You may combine the Software with differently licensed material whenever applicable law and the licenses governing that other material permit the combination.
+
+---
+
+## 37. Contributions
+
+Unless clearly stated otherwise by the contributor before submission, a contribution intentionally submitted for direct inclusion in Licensed Components is offered for distribution under this license.
+
+The contributor grants the permissions reasonably necessary for that contribution to be distributed as part of the Software under these terms.
+
+No copyright assignment is required.
+
+A contributor remains free to license their own contribution separately under other terms where they have the legal right to do so.
+
+---
+
+## 38. Mandatory Rights and Applicable Law
+
+Nothing in these terms restricts any right, defense, exception, or permission that applicable law grants independently of the Licensor and does not permit the Licensor to restrict by contract.
+
+Depending on applicable law, such rights may include:
+
+* fair use;
+* fair dealing;
+* lawful backup;
+* archival copying;
+* observation;
+* study;
+* testing;
+* security research;
+* interoperability;
+* lawful reverse engineering;
+* permitted decompilation;
+* exhaustion of rights;
+* first-sale rights;
+* consumer rights; and
+* other mandatory statutory exceptions or limitations.
+
+If a provision of these terms conflicts with mandatory applicable law, that provision applies only to the maximum extent permitted by that law.
+
+The remaining provisions continue in effect.
+
+Nothing in these terms requires a person to obtain permission for conduct that applicable law already permits without authorization from the Licensor.
+
+---
+
+## 39. Trademarks and Branding
+
+This license does not grant permission to use the Licensor's trademarks, logos, trade dress, project branding, or names in a manner that falsely implies sponsorship, endorsement, certification, or official status.
+
+You may use project names and other identifying information when reasonably necessary for:
+
+* attribution;
+* compatibility statements;
+* factual descriptions;
+* documentation;
+* discussion;
+* comparison;
+* identification of the Software; or
+* identification of the Original Repository.
+
+---
+
+## 40. Separate Commercial Permission
+
+The Licensor may separately offer:
+
+* commercial licenses;
+* commercial distribution permissions;
+* proprietary licenses;
+* dual licenses;
+* commercial hosting permissions; or
+* other additional permissions.
+
+A separate commercial license granted to one person does not reduce the rights of anyone who received the Software under this license.
+
+The Licensor's decision to offer the Software under different terms in the future does not revoke permissions already validly granted under these terms.
+
+---
+
+## 41. Patent Defense
+
+If you or an organization acting through you initiates a patent claim alleging that the Software itself infringes a patent owned or controlled by you, the patent license granted to you under these terms terminates with respect to the Software involved in that claim.
+
+This provision does not terminate copyright permissions merely because a patent license terminates.
+
+It also does not restrict patent rights or defenses that applicable law gives independently of this license.
+
+---
+
+## 42. Violations
+
+Permissions granted under this license terminate automatically if you materially violate these terms.
+
+Termination applies only to permissions that depend on this license.
+
+Rights available independently under applicable law are not affected.
+
+---
+
+## 43. Reinstatement
+
+For a first material violation, permissions terminated under the Violations section will automatically be reinstated if you:
+
+1. stop the violation;
+2. take reasonable steps to correct reasonably correctable effects of the violation; and
+3. return to full compliance within 30 days after receiving written notice from the Licensor.
+
+Repeated, deliberate, fraudulent, or continuing violations are not entitled to automatic reinstatement under this section.
+
+The Licensor may separately waive a violation or reinstate permissions in writing.
+
+---
+
+## 44. No Transfer of Ownership
+
+This license grants permissions but does not transfer ownership of:
+
+* copyright;
+* patents;
+* trademarks;
+* trade secrets; or
+* other intellectual property.
+
+The Licensor retains all rights not expressly granted or independently available under applicable law.
+
+The Licensor remains free to license the Software to other parties under different terms.
+
+---
+
+## 45. Disclaimer of Warranty
+
+To the maximum extent permitted by applicable law, the Software is provided **"as is"** and **"as available"**, without warranties or conditions of any kind, whether express, implied, statutory, or otherwise.
+
+To the maximum extent permitted by applicable law, the Licensor and contributors disclaim warranties including:
+
+* merchantability;
+* fitness for a particular purpose;
+* satisfactory quality;
+* title;
+* non-infringement;
+* accuracy;
+* compatibility;
+* security;
+* reliability;
+* availability; and
+* freedom from defects.
+
+You assume the risks associated with using, modifying, operating, or distributing the Software.
+
+Nothing in these terms excludes or limits liability to the extent that applicable law does not permit such liability to be excluded or limited.
+
+In particular, nothing in these terms purports to exclude or limit liability for:
+
+* fraud;
+* intentional misconduct;
+* gross negligence where such liability cannot lawfully be excluded;
+* death or personal injury caused by negligence where such liability cannot lawfully be excluded;
+* mandatory consumer remedies; or
+* another category of liability that applicable law makes non-excludable.
+
+---
+
+## 46. Limitation of Liability
+
+To the maximum extent permitted by applicable law, no Licensor or contributor will be liable for:
+
+* indirect damages;
+* incidental damages;
+* special damages;
+* consequential damages;
+* exemplary damages;
+* punitive damages;
+* lost profits;
+* lost revenue;
+* lost data;
+* business interruption; or
+* similar loss
+
+arising from the Software, these terms, or the exercise of permissions granted by these terms.
+
+This limitation applies regardless of the legal theory asserted and regardless of whether the Licensor or contributor knew or should have known of the possibility of such damages.
+
+Nothing in this section excludes or limits liability that applicable law does not permit to be excluded or limited.
+
+---
+
+## 47. Severability
+
+If any provision of these terms is held invalid, unlawful, or unenforceable under applicable law, that provision will be interpreted, limited, or disregarded only to the minimum extent necessary.
+
+The remaining provisions continue in effect.
+
+If part of a provision can lawfully remain effective after an invalid portion is removed, the valid portion remains effective.
+
+---
+
+## 48. No Waiver
+
+Failure by the Licensor to enforce a provision of these terms in a particular instance does not by itself waive the Licensor's right to enforce that provision in another instance.
+
+A waiver is effective only to the extent expressly stated by the Licensor.
+
+---
+
+## 49. Definitions
+
+### "Software"
+
+"Software" means the software and other copyrightable material offered by the Licensor under these terms.
+
+### "Licensor"
+
+"Licensor" means the individual or legal entity offering the Software under these terms.
+
+### "You"
+
+"You" means the individual or legal entity exercising permissions under these terms.
+
+### "Use"
+
+"Use" means conduct involving the Software that requires permission from the Licensor under applicable intellectual-property law, together with conduct expressly governed by contractual obligations accepted under these terms.
+
+### "Modify"
+
+"Modify" means changing, adapting, translating, adding to, removing from, or directly creating derivative material from Licensed Components.
+
+### "Modified Version"
+
+"Modified Version" means a copy of the Software containing one or more Covered Modifications.
+
+### "Distribute"
+
+"Distribute" means giving, supplying, transmitting, publishing, transferring, or otherwise making a copy of the Software, Licensed Components, or Covered Modifications available to another person or legal entity.
+
+Ordinary remote interaction with software through a network is not by itself Distribution.
+
+### "Licensed Components"
+
+"Licensed Components" has the meaning given in Section 21.
+
+### "Covered Modifications"
+
+"Covered Modifications" has the meaning given in Section 22.
+
+### "Independent Component"
+
+"Independent Component" has the meaning given in Section 23.
+
+### "Larger Work"
+
+"Larger Work" means a combination containing both Licensed Components and Independent Components.
+
+### "Corresponding Source"
+
+"Corresponding Source" has the meaning given in Section 29.
+
+### "Access Information"
+
+"Access Information" has the meaning given in Section 16.
+
+### "Original Repository"
+
+"Original Repository" means the upstream repository identified in the Original Repository notice supplied by the Licensor.
+
+### "Commercial Exploitation"
+
+"Commercial Exploitation" means conduct described in Section 15, subject to the exceptions and limitations elsewhere in these terms.
+
+### "Cost Recovery"
+
+"Cost Recovery" means reimbursement permitted under Section 11.
+
+### "Permitted Purpose"
+
+"Permitted Purpose" means a purpose permitted under these terms.
+
+---
+
+## 50. License Text
+
+You may reproduce this license text verbatim for use with other software.
+
+If you modify the substantive terms of this license text, you should use a different license name or version number so that recipients can distinguish the modified license from this version.
+
+The name **Noncommercial Source-Preservation License** and the abbreviation **NCSPL** may be used to identify an unmodified copy of this license.
+
+---
+
+# Noncommercial Source-Preservation License 1.2
+
+**NCSPL-1.2**

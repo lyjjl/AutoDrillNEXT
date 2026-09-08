@@ -1,0 +1,9 @@
+displayName: "AutoDrillNEXT"
+name: "auto-drill-next"
+author: "Pointifix"
+main: "autodrillnext.AutoDrillNEXT"
+description: "Plans local mining layouts with shared transport, support, budgets, and safe upgrades"
+version: 2.0
+minGameVersion: 159
+java: true
+hidden: true

@@ -1,0 +1,66 @@
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Release tag, for example v2.0.0
+        required: true
+        type: string
+      prerelease:
+        description: Mark the release as a prerelease
+        required: true
+        default: false
+        type: boolean
+      draft:
+        description: Save the release as a draft
+        required: true
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  quality:
+    uses: ./.github/workflows/quality.yml
+
+  release:
+    name: Create GitHub release
+    needs: quality
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate release tag
+        env:
+          TAG: ${{ inputs.tag }}
+        run: |
+          test -n "$TAG"
+          test "$TAG" = "$(printf '%s' "$TAG" | tr -d '[:space:]')"
+          if git ls-remote --exit-code --tags origin "refs/tags/$TAG"; then
+            echo "Tag $TAG already exists." >&2
+            exit 1
+          fi
+
+      - name: Download verified mod artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: AutoDrillNEXT
+          path: release
+
+      - name: Verify downloaded artifact
+        run: test -f release/AutoDrillNEXT.jar
+
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.tag }}
+          PRERELEASE: ${{ inputs.prerelease }}
+          DRAFT: ${{ inputs.draft }}
+        run: |
+          options=(--target "$GITHUB_SHA" --title "$TAG" --generate-notes)
+          if [ "$PRERELEASE" = true ]; then options+=(--prerelease); fi
+          if [ "$DRAFT" = true ]; then options+=(--draft); fi
+          gh release create "$TAG" release/AutoDrillNEXT.jar#AutoDrillNEXT.jar "${options[@]}"

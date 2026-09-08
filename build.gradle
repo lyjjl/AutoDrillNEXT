@@ -1,0 +1,109 @@
+apply plugin: "java"
+
+version '1.0'
+
+
+sourceSets{
+    main.java.srcDirs = ["src/autodrillnext"]
+    test.java.srcDirs = ["src/test/java"]
+}
+repositories{
+    mavenCentral()
+    maven { url "https://raw.githubusercontent.com/Zelaux/MindustryRepo/master/repository" }
+    maven{ url 'https://www.jitpack.io' }
+}
+
+ext{
+    //the build number that this mod is made for
+    mindustryVersion = 'v159.7'
+    jabelVersion = "93fde537c7"
+    isWindows = System.getProperty("os.name").toLowerCase().contains("windows")
+    sdkRoot = System.getenv("ANDROID_HOME") ?: System.getenv("ANDROID_SDK_ROOT")
+    modArchiveName = "AutoDrillNEXT"
+}
+
+// Compile the mod and pure-Java tests with the Java 17 language/API floor.
+allprojects{
+    tasks.withType(JavaCompile){
+        options.release = 17
+    }
+}
+
+java{
+    targetCompatibility = JavaVersion.VERSION_17
+    sourceCompatibility = JavaVersion.VERSION_17
+}
+
+dependencies{
+    implementation 'org.jetbrains:annotations:20.1.0'
+    compileOnly "com.github.Anuken.Arc:arc-core:$mindustryVersion"
+    compileOnly "com.github.Anuken.Mindustry:core:$mindustryVersion"
+    testImplementation "com.github.Anuken.Arc:arc-core:$mindustryVersion"
+    testImplementation "com.github.Anuken.Mindustry:core:$mindustryVersion"
+
+    testImplementation platform('org.junit:junit-bom:5.10.3')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+test{
+    useJUnitPlatform()
+    doFirst {
+        systemProperty "autodrillnext.test.classpath", sourceSets.test.runtimeClasspath.asPath
+    }
+}
+
+task jarAndroid{
+    dependsOn "jar"
+
+    doLast{
+        if(!sdkRoot || !new File(sdkRoot).exists()) throw new GradleException("No valid Android SDK found. Ensure that ANDROID_HOME is set to your Android SDK directory.");
+
+        def platformRoot = new File("$sdkRoot/platforms/").listFiles().sort().reverse().find{ f -> new File(f, "android.jar").exists()}
+
+        if(!platformRoot) throw new GradleException("No android.jar found. Ensure that you have an Android platform installed.")
+
+        // Dex and desugar files. Check D8's exit status so an incomplete Android archive never reaches deploy.
+        def command = ["d8"]
+        (configurations.compileClasspath.asList() + configurations.runtimeClasspath.asList()).each{ dependency ->
+            command.addAll(["--classpath", dependency.path])
+        }
+        command.addAll(["--lib", new File(platformRoot, "android.jar").path])
+        command.addAll(["--min-api", "14", "--output", "${modArchiveName}Android.jar", "${modArchiveName}Desktop.jar"])
+        def process = command.execute(null, new File("$buildDir/libs"))
+        process.waitForProcessOutput(System.out, System.err)
+        if(process.exitValue() != 0) throw new GradleException("D8 failed with exit code ${process.exitValue()}.")
+    }
+}
+
+jar{
+    archiveFileName = "${modArchiveName}Desktop.jar"
+
+    from{
+        configurations.runtimeClasspath.collect{ it.isDirectory() ? it : zipTree(it) }
+    }
+
+    from(rootDir){
+        include "LICENSE"
+        include "mod.hjson"
+    }
+
+    from("assets/"){
+        include "**"
+    }
+}
+
+task deploy(type: Jar){
+    dependsOn jarAndroid
+    dependsOn jar
+    archiveFileName = "${modArchiveName}.jar"
+
+    from{ [zipTree("$buildDir/libs/${modArchiveName}Desktop.jar"), zipTree("$buildDir/libs/${modArchiveName}Android.jar")] }
+
+    doLast{
+        delete{
+            delete "$buildDir/libs/${modArchiveName}Desktop.jar"
+            delete "$buildDir/libs/${modArchiveName}Android.jar"
+        }
+    }
+}

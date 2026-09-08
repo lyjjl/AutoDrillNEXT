@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">AutoDrillNEXT drill icon</title>
+  <desc id="desc">A compact industrial drill head with a mineral core.</desc>
+  <path d="M64 8 105 31v46l-41 43L23 77V31Z" fill="#263b47" stroke="#8db8c5" stroke-linejoin="round" stroke-width="6"/>
+  <path d="m64 24 27 16v32L64 104 37 72V40Z" fill="#405f6d"/>
+  <circle cx="64" cy="62" r="29" fill="#18282f" stroke="#b8d2d5" stroke-width="5"/>
+  <path d="m64 32 12 16-5 15 13 5-20 25-20-25 13-5-5-15Z" fill="#dbe9e8"/>
+  <path d="m64 50 12 15-12 24-12-24Z" fill="#e7b85c"/>
+  <circle cx="64" cy="65" r="7" fill="#fff2b0"/>
+  <path d="m29 34 12 7-12 7Zm70 0 12 7-12 7ZM64 104l8 8-8 8-8-8Z" fill="#75a7c1"/>
+</svg>
